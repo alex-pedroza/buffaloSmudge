@@ -38,6 +38,17 @@ nav ul li a:hover {
     border-radius: 5px;
 }
 
+/* responsive nav bar */
+@media screen and (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 0.5rem 0;
+    }
+}
 
 main {
 
@@ -80,7 +91,7 @@ main {
     margin-top: auto;
     line-height: 35px;
     font-family: Georgia, serif;
-    
+
 }
 
 
