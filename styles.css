@@ -81,7 +81,6 @@ main {
   justify-content: center;
   gap: 2rem;
   text-align: left;
-  overflow: auto;
 
 }
 
@@ -97,7 +96,7 @@ main {
 .center{
     max-width: 100%; /* Adjust the max-width as needed */
     margin-top: auto;
-    line-height: 35px;
+    line-height: 1.5;
     font-family: Georgia, serif;
 
 }
